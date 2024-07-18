@@ -27,7 +27,6 @@
     "@hookform/resolvers": "^3.3.4",
     "@internationalized/date": "^3.5.3",
     "@mui/material": "^5.15.19",
-    "@next/swc-darwin-arm64": "^14.2.5",
     "@prisma/client": "^5.16.2",
     "@prisma/extension-accelerate": "^1.1.0",
     "@radix-ui/react-alert-dialog": "^1.0.5",
