@@ -50,7 +50,7 @@ interface Publication {
   category: string;
   isAtHome: boolean;
 }
-{service.imag
+
 const ProfessionalDiscoverCard = () => {
   const publicationData: Publication[] = [
     {
@@ -142,7 +142,7 @@ const ProfessionalDiscoverCard = () => {
   );
 }
 
-export default function BackUpPage() {
+const BackUpPage = ()=> {
   const { user } = useUserContext();
 
   const [service, setService] = useState('');
@@ -231,3 +231,4 @@ export default function BackUpPage() {
     </main>
   );
 }
+export default BackUpPage
