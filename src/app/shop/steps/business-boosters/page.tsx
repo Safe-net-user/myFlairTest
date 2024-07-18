@@ -1,14 +1,14 @@
 import Image from 'next/image';
 import Link from 'next/link';
 
-import { getAllBusinessBoosters } from '@/data/business-booster';
+
 
 import { Button } from '@/components/ui/button';
 import Cart from '@/components/shop/steps/reservation/cart';
 import CartGlobal from '../../Cart';
 
 export default async function BusinessBoostersPage() {
-  const businessBoosters = (await getAllBusinessBoosters()) || [];
+  
 
   return (
     <main>
