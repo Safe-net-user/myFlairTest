@@ -50,7 +50,7 @@ interface Publication {
   category: string;
   isAtHome: boolean;
 }
-
+{service.imag
 const ProfessionalDiscoverCard = () => {
   const publicationData: Publication[] = [
     {
@@ -200,7 +200,7 @@ export default function BackUpPage() {
                 <Card className="flex flex-col items-center">
                   <CardHeader>
                     <Image
-                      src={service.image || '/default-service-image.jpg'}
+                      src={'/default-service-image.jpg'}
                       alt={service.title}
                       width={1000}
                       height={1000}
